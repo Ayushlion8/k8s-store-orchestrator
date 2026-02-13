@@ -84,6 +84,7 @@ nip.io (Local domain routing)
 
 📂 Project Structure
 
+```
 k8s-store-orchestrator/
 │
 ├── charts/woocommerce-store
@@ -107,3 +108,5 @@ k8s-store-orchestrator/
 │   └── src/
 │
 └── infra/
+```
+
