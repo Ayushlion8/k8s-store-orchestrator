@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  color: #94a3b8;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.create input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 10px 16px;
+  background: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.stores {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.store h3 {
+  margin: 0 0 5px 0;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.status.creating {
+  background: orange;
+}
+
+.status.installing {
+  background: purple;
+}
+
+.status.ready {
+  background: green;
+}
+
+.status.failed {
+  background: red;
+}
+
+.status.deleting {
+  background: gray;
+}
+
+.actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions a {
+  text-decoration: none;
+  color: #22c55e;
+}

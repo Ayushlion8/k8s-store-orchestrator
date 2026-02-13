@@ -1,0 +1,7 @@
+node_modules/
+.env
+dist/
+build/
+coverage/
+dashboard/node_modules/
+orchestrator/node_modules/

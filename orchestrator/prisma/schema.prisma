@@ -1,0 +1,32 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Store {
+  id            String       @id @default(uuid())
+  name          String
+  namespace     String       @unique
+  release       String       @unique
+  domain        String       @unique
+  plan          String
+  status        StoreStatus  @default(CREATING)
+  adminEmail    String
+  adminPassword String
+  errorMessage  String?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+}
+
+enum StoreStatus {
+  CREATING
+  INSTALLING
+  CONFIGURING
+  READY
+  FAILED
+  DELETING
+}

@@ -1,0 +1,8 @@
+# values-local.yaml: used by orchestrator for local k3d/kind
+ingress:
+  enabled: true
+  host: "PLACEHOLDER_HOST" # orchestrator replaces with store-<id>.127.0.0.1.nip.io
+
+postgresql:
+  persistence:
+    storageClass: "local-path"

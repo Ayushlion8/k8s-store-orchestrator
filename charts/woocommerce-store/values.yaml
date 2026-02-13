@@ -1,0 +1,28 @@
+wordpress:
+  image:
+    repository: wordpress
+    tag: "6.4-apache"
+    pullPolicy: IfNotPresent
+
+  persistence:
+    enabled: true
+    size: 1Gi
+
+  ingress:
+    enabled: true
+    host: teststore.127.0.0.1.nip.io
+
+mysql:
+  image:
+    repository: mysql
+    tag: "8.0"
+    pullPolicy: IfNotPresent
+
+  rootPassword: rootpassword
+  database: wordpress
+  user: wpuser
+  password: wppassword
+
+  persistence:
+    enabled: true
+    size: 1Gi

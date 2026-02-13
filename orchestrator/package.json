@@ -1,0 +1,29 @@
+{
+  "name": "urumi-orchestrator",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "NODE_ENV=development nodemon src/server.js"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^0.18.0",
+    "@prisma/adapter-pg": "^7.4.0",
+    "@prisma/client": "^7.4.0",
+    "bullmq": "^5.69.1",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "ioredis": "^5.9.3",
+    "js-yaml": "^4.1.0",
+    "pg": "^8.18.0",
+    "prisma": "^7.4.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

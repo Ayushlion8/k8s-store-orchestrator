@@ -1,0 +1,8 @@
+# values-prod.yaml: production-like (k3s)
+ingress:
+  enabled: true
+  host: "example.com" # user-provided domain
+
+postgresql:
+  persistence:
+    storageClass: "longhorn" # or cloud storage class
