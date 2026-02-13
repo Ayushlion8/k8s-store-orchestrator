@@ -22,3 +22,64 @@
     cd dashboard
     npm install
     npm start
+
+   🚀 k8s-store-orchestrator
+
+Multi-Tenant WooCommerce Orchestrator built with Kubernetes, Helm, Node.js, Prisma, Redis, and React.
+
+🧱 Architecture Overview
+
+User (React Dashboard)
+⬇
+Node.js Orchestrator (Express API)
+⬇
+PostgreSQL (Store metadata via Prisma)
+⬇
+Redis (BullMQ Job Queue)
+⬇
+Worker
+⬇
+Helm → Kubernetes
+⬇
+MySQL + WordPress + WooCommerce (Per Namespace)
+
+⚙️ Tech Stack
+Frontend
+
+React (Vite)
+
+Axios
+
+Backend
+
+Node.js
+
+Express
+
+Prisma 7
+
+PrismaPg Adapter
+
+PostgreSQL
+
+Queue System
+
+BullMQ
+
+Redis
+
+Infrastructure
+
+Kubernetes
+
+Helm
+
+MySQL
+
+WordPress
+
+WooCommerce
+
+nip.io (Local domain routing)
+
+📂 Project Structure
