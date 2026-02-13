@@ -83,3 +83,27 @@ WooCommerce
 nip.io (Local domain routing)
 
 📂 Project Structure
+
+k8s-store-orchestrator/
+│
+├── charts/woocommerce-store
+│   ├── templates/
+│   │   ├── mysql-statefulset.yaml
+│   │   ├── wordpress-deployment.yaml
+│   │   ├── wordpress-service.yaml
+│   │   └── wordpress-ingress.yaml
+│   ├── Chart.yaml
+│   └── values.yaml
+│
+├── orchestrator/
+│   ├── src/
+│   │   ├── api/
+│   │   ├── provisioning/
+│   │   ├── worker.js
+│   │   └── server.js
+│   └── prisma/
+│
+├── dashboard/
+│   └── src/
+│
+└── infra/
