@@ -44,13 +44,13 @@ Helm → Kubernetes
 MySQL + WordPress + WooCommerce (Per Namespace)
 
 ⚙️ Tech Stack
-Frontend
+## Frontend
 
 React (Vite)
 
 Axios
 
-Backend
+## Backend
 
 Node.js
 
@@ -68,7 +68,7 @@ BullMQ
 
 Redis
 
-Infrastructure
+## Infrastructure
 
 Kubernetes
 
