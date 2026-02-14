@@ -26,6 +26,7 @@ Worker
 Helm → Kubernetes
 ⬇
 MySQL + WordPress + WooCommerce (Per Namespace)
+```
 
 ## ⚙️ Tech Stack
 ## Frontend
@@ -65,7 +66,6 @@ WordPress
 WooCommerce
 
 nip.io (Local domain routing)
-```
 
 ## 📂 Project Structure
 
