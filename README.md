@@ -43,7 +43,7 @@ Helm → Kubernetes
 ⬇
 MySQL + WordPress + WooCommerce (Per Namespace)
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 ## Frontend
 
 React (Vite)
