@@ -27,7 +27,8 @@
 
 Multi-Tenant WooCommerce Orchestrator built with Kubernetes, Helm, Node.js, Prisma, Redis, and React.
 
-🧱 Architecture Overview
+## 🧱 Architecture Overview
+```
 
 User (React Dashboard)
 ⬇
@@ -81,8 +82,9 @@ WordPress
 WooCommerce
 
 nip.io (Local domain routing)
+```
 
-📂 Project Structure
+## 📂 Project Structure
 
 ```
 k8s-store-orchestrator/
@@ -110,7 +112,7 @@ k8s-store-orchestrator/
 └── infra/
 ```
 
-🔧 Prerequisites
+## 🔧 Prerequisites
 
 Install the following:
 
@@ -126,7 +128,7 @@ PostgreSQL
 
 Redis
 
-🚀 Quick Start (Local Setup)
+## 🚀 Quick Start (Local Setup)
 1️⃣ Start PostgreSQL
 ```
 createdb urumi
