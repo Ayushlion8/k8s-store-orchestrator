@@ -1,12 +1,9 @@
 # k8s-store-orchestrator
 
-<a href="YOUR_DEMO_VIDEO_LINK">
+<a href="https://drive.google.com/file/d/1Uz-Ae75D7D0Y1nzeX8whVk4lHo-QAnhi/view?usp=sharing">
   <img src="https://img.shields.io/badge/▶%20Demo%20Video-FF0000?style=for-the-badge" alt="Demo Video">
 </a>
-&nbsp;
-<a href="https://drive.google.com/file/d/1Uz-Ae75D7D0Y1nzeX8whVk4lHo-QAnhi/view?usp=sharing">
-  <img src="https://img.shields.io/badge/📄%20Project%20Documentation-4285F4?style=for-the-badge" alt="Documentation">
-</a>
+
 
 ## Quick start (local)
 1. Install: Docker, k3d, kubectl, helm, node/npm
