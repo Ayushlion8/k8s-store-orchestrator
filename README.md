@@ -1,5 +1,7 @@
 # k8s-store-orchestrator
 
+[📽️ Demo Video](https://drive.google.com/file/d/1Uz-Ae75D7D0Y1nzeX8whVk4lHo-QAnhi/view?usp=sharing)
+
 ## Quick start (local)
 1. Install: Docker, k3d, kubectl, helm, node/npm
 2. Run infra:
